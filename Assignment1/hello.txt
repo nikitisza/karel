@@ -1,0 +1,22 @@
+We'd love to get to know you in CS106A! As your first task, we'd like you to
+update this document with the answers to the questions below and leave them in
+your submission so that your section leader learn more about you (you probably
+will not know who they are until after the assignment is due).
+
+Also, send an email to Tom (hurlbutt@cs.stanford.edu), Yves
+(yves@cs.stanford.edu), and Karl (knuhlig@stanford.edu) with the answers to
+these questions. Please make sure that the subject line of your email says
+"CS106A Email: <your name>", where "<your name>" is actually filled in with your
+name.
+
+General information and computing background:
+	0.	What is your name?
+	1.	What year are you? (Frosh, Sophomore, Junior, Senior, Graduate, Other)
+  2.  Are you a Stanford student, and if not where are you from?
+	3.	What is your major/area of study (or, if you're in high school, what would you like to study)? ("I'm not sure" and "I don't know" are completely acceptable answers here!)
+	4.	What type of computer (PC, Mac, Linux, etc.) do you prefer using?
+	5.	Why are you taking CS106A?
+Fun Stuff: This final section is just for us to have something to remember you by.
+	1.	What do you do for fun?
+	2.	Tell a quick anecdote about something that you feel makes you unique. This can be a cool talent, an interesting experience, or anything else you'd like!
+	3.	Computers can be used to solve a wide variety of problems and perform a huge range of tasks. Is there any particular application of computers you'd like us to cover in this course?
