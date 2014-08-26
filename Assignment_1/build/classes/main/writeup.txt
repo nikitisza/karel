@@ -1,0 +1,35 @@
+Please answer the writeup questions from the Karel
+Writeup in this text file. You can then submit this 
+file along with your code when using the submitter.
+
+These questions will be graded on a "did you answer the
+questions?" basis and your section leader may discuss
+them with you during your IG for this assignment.
+
+1. The Karel programs you wrote in the last three
+   parts of this assignment need to work in a variety
+   of worlds. How did you test your code to see if it
+   would work correctly in multiple different worlds?
+   
+   
+
+2. There are many different approaches you can take
+   when writing your solutions to the CheckerboardKarel
+   and MidpointFindingKarel problems. When you were
+   working on these problems, did you consider any
+   solution strategies other than the one you chose
+   to implement? If so, what other approaches did
+   you consider?
+   
+   
+
+3. Choose one of the Karel problems other than
+   CollectNewspaperKarel. Describe how you decomposed
+   the program into smaller methods. How did you decide
+   how to split the code across multiple methods? Did
+   you consider any decompositions other than the one
+   you ended up choosing?
+
+
+
+
