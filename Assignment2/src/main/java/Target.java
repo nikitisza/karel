@@ -19,10 +19,12 @@ public class Target extends GraphicsProgram {
 
 	public void run()  {
 
-            GOval circle = new GOval(xMiddlePoint - radiusOuter, yMiddlePoint - radiusOuter, 2 * radiusOuter, 2 * radiusOuter);
-            circle.setFilled(true);
-            circle.setColor(Color.RED);
-            add(circle);
-        }
-    }
+        GOval circle = new GOval(xMiddlePoint + radiusOuter, yMiddlePoint + radiusOuter, 2 * radiusOuter, 2 * radiusOuter);
+        circle.setFilled(true);
+        circle.setColor(Color.RED);
+        add(circle);
+
+  }
+
+}
 
