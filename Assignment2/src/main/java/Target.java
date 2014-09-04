@@ -11,13 +11,14 @@ import java.awt.*;
 
 public class Target extends GraphicsProgram {
 
-    double radiusOuter = 72;
-    double radiusMiddle = radiusOuter*0.65;
-    double radiusInner = radiusOuter*0.3;
-    double yMiddlePoint = getHeight()/2;
-    double xMiddlePoint = getWidth()/2;
 
 	public void run()  {
+
+        double radiusOuter = 72;
+        double radiusMiddle = radiusOuter*0.65;
+        double radiusInner = radiusOuter*0.3;
+        double yMiddlePoint = getHeight()/2;
+        double xMiddlePoint = getWidth()/2;
 
         GOval circle = new GOval(xMiddlePoint-radiusOuter, yMiddlePoint-radiusOuter, 2 * radiusOuter, 2 * radiusOuter);
         circle.setFilled(true);
