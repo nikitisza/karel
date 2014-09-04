@@ -20,22 +20,17 @@ public class Target extends GraphicsProgram {
         double yMiddlePoint = getHeight()/2;
         double xMiddlePoint = getWidth()/2;
 
-        GOval circle = new GOval(xMiddlePoint-radiusOuter, yMiddlePoint-radiusOuter, 2 * radiusOuter, 2 * radiusOuter);
-        circle.setFilled(true);
-        circle.setColor(Color.RED);
-        add(circle);
-
-        GOval circleMiddle = new GOval(xMiddlePoint-radiusMiddle, yMiddlePoint-radiusMiddle, 2* radiusMiddle, 2 * radiusMiddle);
-        circleMiddle.setFilled(true);
-        circleMiddle.setColor(Color.white);
-        add(circleMiddle);
-
-        GOval circleInner = new GOval(xMiddlePoint-radiusInner, yMiddlePoint-radiusInner, 2*radiusInner, 2*radiusInner);
-        circleInner.setFilled(true);
-        circleInner.setColor(Color.RED);
-        add(circleInner);
+        add(circleDraw(xMiddlePoint, yMiddlePoint, radiusOuter, Color.RED));
+        add(circleDraw(xMiddlePoint, yMiddlePoint, radiusMiddle, Color.WHITE));
+        add(circleDraw(xMiddlePoint, yMiddlePoint, radiusInner, Color.RED));
 
   }
+    private GOval circleDraw(double x,double y, double radius, Color c) {
+        GOval circle = new GOval(x-radius,y-radius, radius*2, radius*2);
+        circle.setFilled(true);
+        circle.setColor(c);
+        return circle;
+    }
 
 }
 
