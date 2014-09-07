@@ -17,12 +17,17 @@ public class FibonacciSequence extends ConsoleProgram {
     private static final int MAX_TERM_VALUE = 10000;
 
         public void run() {
+            println("This program displays the Fibonacci Sequence until 10,000:");
 
-            int fibNumber0 = 0;
-            int fibNumber1 = 1;
-            
+            int fibNumber1 = 0;
+            int fibNumber2 = 1;
 
+            while (fibNumber1 <= MAX_TERM_VALUE) {
+                println(fibNumber1);
+                int fibNumber3 = (fibNumber1 + fibNumber2);
+                fibNumber1 = fibNumber2;
+                fibNumber2 = fibNumber3;
+            }
         }
-
 
 }
