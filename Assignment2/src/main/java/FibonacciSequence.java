@@ -17,7 +17,7 @@ public class FibonacciSequence extends ConsoleProgram {
     private static final int MAX_TERM_VALUE = 10000;
 
         public void run() {
-            println("This program displays the Fibonacci Sequence until 10,000:");
+            println("This program will display the Fibonacci Sequence until 10,000:");
 
             int fibNumber1 = 0;
             int fibNumber2 = 1;
