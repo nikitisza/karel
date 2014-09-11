@@ -11,7 +11,7 @@ public class DrawRobot extends GraphicsProgram {
     public void run() {
 
         GOval head = new GOval(300, 80, 90, 90);
-        
+
            head.setFillColor(Color.RED);
            head.setFilled(true);
            head.setColor(Color.red);
