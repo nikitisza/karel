@@ -18,6 +18,8 @@ public class ProgramHierarchy extends GraphicsProgram {
     public void run() {
 
         drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, (getHeight()/2)-RECTANGLE_HEIGHT/2);
+        writeLabel((getWidth()/2)-RECTANGLE_WIDTH/2/2, (getHeight()/2), "Program");
+
         drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, (getHeight()/2)-RECTANGLE_HEIGHT/2);
         drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, (getHeight()/2)-RECTANGLE_HEIGHT/2);
         drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, (getHeight()/2)-RECTANGLE_HEIGHT/2);
