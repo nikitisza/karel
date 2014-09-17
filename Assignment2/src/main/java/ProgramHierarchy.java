@@ -21,11 +21,17 @@ public class ProgramHierarchy extends GraphicsProgram {
         writeLabel((getWidth()/2)-RECTANGLE_WIDTH/2/2, (getHeight()/2), "Program");
 
         drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, (getHeight()/2)-RECTANGLE_HEIGHT/2);
+        writeLabel((getWidth()/2)-RECTANGLE_WIDTH/2/2, (getHeight()/2), "Graphics Program");
+
+        drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, ((getHeight()/2)-RECTANGLE_HEIGHT/2+100));
+        writeLabel((getWidth()/2)-RECTANGLE_WIDTH/2/2-23, ((getHeight()/2)-RECTANGLE_HEIGHT/2+115), "Console Program");
+
         drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, (getHeight()/2)-RECTANGLE_HEIGHT/2);
-        drawBox((getWidth()/2)-RECTANGLE_WIDTH/2, (getHeight()/2)-RECTANGLE_HEIGHT/2);
+        writeLabel((getWidth()/2)-RECTANGLE_WIDTH/2/2, (getHeight()/2), "Dialog Program");
 
 
-	}
+
+    }
 
     private void drawBox (int x,int y) {
         GRect drawRectangle = new GRect(x, y, RECTANGLE_WIDTH, RECTANGLE_HEIGHT);
