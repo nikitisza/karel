@@ -11,7 +11,7 @@ public class InchToCenti extends ConsoleProgram {
         println("This program converts inches to centimeter.");
         double inches = readDouble("Enter value in inches: ");
         double cm = inches * CENTIMETERS_PER_INCH;
-        println(inches + " inch is " + cm + " centimeter");
+        println(inches + " inches are " + cm + " centimeter");
 
     }
 
